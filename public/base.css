@@ -1,0 +1,10 @@
+.columns {
+  background-color: #cecece;
+  border: 1px solid white;
+}
+
+.rot {
+  color: red;
+  animation-duration: 1s;
+  animation-name: wobble;
+}
