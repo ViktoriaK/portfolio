@@ -8,7 +8,7 @@ $(document).ready(function(){
     offset: "100%"
   })
 
-  var waypoint = new Waypoint({
+  var waypoint2 = new Waypoint({
     element: document.getElementById('project2'),
     handler: function(direction) {
       $('#project2').addClass('animated slideInUp');
@@ -16,7 +16,7 @@ $(document).ready(function(){
     offset: "100%"
   })
 
-  var waypoint = new Waypoint({
+  var waypoint3 = new Waypoint({
     element: document.getElementById('project3'),
     handler: function(direction) {
       $('#project3').addClass('animated slideInUp');

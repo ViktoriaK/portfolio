@@ -1,3 +1,12 @@
+/*Reset Foundation default row width*/
+.row {
+  max-width: 1000px; !important
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
   color: #008060;
   font-size: 40px;
@@ -23,7 +32,7 @@ hr {
   animation-duration: .75s;
 }
 
-.animated.fadeInUp {
+.animated.slideInUp {
   -webkit-animation-duration: .75s;
   animation-duration: .75s;
 }
